@@ -12,7 +12,16 @@
 */
 
 function swap(x, y){
-    // Task 1: Add code here
+    // Task 1: 
+    let x=10;
+    let y=5;
+    let x=x+y;
+    let y=x-y;
+    let x=x-y;
+    alert(x);
+    alert(y);
+    
+    
 }
 
 // Task 2: Add code here

@@ -12,16 +12,23 @@
 */
 
 function swap(x, y){
-    // Task 1: 
-    let x=10;
-    let y=5;
-    let x=x+y;
-    let y=x-y;
-    let x=x-y;
-    alert(x);
-    alert(y);
+    // Task 1:
+
     
+    if ( isNaN(x) || isNaN(y) ) {
+        alert(-1)
+        return -1;
+    }
+    else {
+        x=x+y;
+        y=x-y;
+        x=x-y;
+        alert(x);
+        alert(y);
+    }
     
 }
 
 // Task 2: Add code here
+swap("Apple",10);
+swap(9,17);
